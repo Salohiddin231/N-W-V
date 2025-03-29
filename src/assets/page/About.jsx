@@ -2,6 +2,7 @@ import React from 'react'
 import '../../assets/css/about.css'
 import icon from '../../assets/images/Icon.svg'
 import tech from '../../assets/images/teacher.png'
+import social from '../../assets/images/Social.png'
 
 export default function About() {
     return (
@@ -67,6 +68,20 @@ export default function About() {
                             <p className="teacher_text">Приходите к нам! Удобное расположение, комфортная атмосфера и дружелюбный коллектив.</p>
                         </li>
                     </ul>
+                </div>
+            </section>
+            <section className='ser'>
+                <div className="container">
+                    <div className="ser_left_right">
+                        <div className="ser_left">
+                            <h4 className="ser_title">Если у вас остались вопросы, можете связаться с нами!</h4>
+                            <p className="ser_suptitle">Приходите к нам! Удобное расположение, комфортная атмосфера и дружелюбный коллектив – ждем вас по адресу!</p>
+                            <p className="ser_suptitle">Курманжан Датка 547
+                            Ориентир: напротив Business House Osh</p>
+                            <button className="ser_btn">+996 505 00 44 11</button>
+                        </div>
+                        <img src={social} alt="" />
+                    </div>
                 </div>
             </section>
         </main>
