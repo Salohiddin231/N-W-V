@@ -1,0 +1,66 @@
+.hero {
+    height: 720px;
+    background: radial-gradient(71.59% 72.01% at 75% 0%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%);
+    width: 100%;
+    background: url('../images/hero.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 160px;
+}
+
+.hero_text {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+
+.hero_title {
+    color: rgb(255, 255, 255);
+    font-family: Sen;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    width: 803px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.hero_infos {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+
+    span {
+        color: rgb(158, 61, 255);
+    }
+}
+
+.hero_suptitle {
+    color: rgb(160, 160, 160);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 686px;
+}
+
+.hero_btn {
+    width: 200px;
+    height: 56px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-family: Sen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    background: rgb(158, 61, 255);
+    margin-top: 22px;
+}

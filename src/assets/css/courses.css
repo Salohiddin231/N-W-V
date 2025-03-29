@@ -1,0 +1,125 @@
+.heroc_left_title {
+    color: rgb(35, 37, 54);
+    font-family: Sen;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    width: 572px;
+    text-align: end;
+}
+
+.heroc {
+    padding-top: 79px;
+}
+
+
+.heroc_text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(51, 51, 51);
+    padding-top: 30px;
+
+    span {
+        color: rgb(158, 61, 255);
+    }
+}
+
+.heroc_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.heroc_left_suptitle {
+    color: rgb(160, 160, 160);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 600px;
+    text-align: end;
+    padding-top: 40px;
+}
+
+.heroc_btn {
+    border-radius: 3px;
+    width: 200px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-family: Sen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    background: rgb(158, 61, 255);
+    border: none;
+    margin-top: 41px;
+}
+
+.heroc_left_rigth {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute space between elements */
+    /* align-items: center; Align items to the top */
+}
+
+/* cards */
+.cards {
+    padding-top: 114px;
+    padding-bottom: 121px;
+}
+.cards_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 83px;
+    flex-wrap: wrap;
+}
+
+.cards_box {
+    width: 350px;
+    height: 440px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 40px 0px rgba(155, 155, 155, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.cards_title {
+    color: rgb(35, 37, 54);
+    font-family: Sen;
+    font-size: 30px;
+    font-weight: 700;
+    /* line-height: 64px; */
+    letter-spacing: -2px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.cards_sup {
+    color: rgb(158, 61, 255);
+    font-family: Sen;
+    font-size: 30px;
+    font-weight: 700;
+    /* line-height: 64px; */
+    letter-spacing: -2px;
+    padding-left: 15px;
+
+}
+
+.cards_btn {
+    width: 318px;
+    height: 53px;
+    border-radius: 5px;
+    background: rgb(158, 61, 255);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Sen;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
